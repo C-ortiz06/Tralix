@@ -4,5 +4,8 @@ const router = express.Router();
 router.get('/', (req, res) => {
   res.render('home'); 
 });
+router.get('/top', (req, res) => {
+  res.render('top'); 
+});
 
 module.exports = router;
