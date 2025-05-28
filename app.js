@@ -20,5 +20,5 @@ const Routes = require('./routes/index.js');
 //usar las rutas
 app.use('/', Routes);
 app.listen (port, () => {
-    console.log("Arracando en el servidor: http://localhost:" + port + "paaaaa")
+    console.log("Arracando en el servidor: http://localhost:" + port + " paaaaa")
 });
