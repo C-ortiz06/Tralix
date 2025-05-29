@@ -3,12 +3,45 @@
 
 <head>
     <%- include('../partials/head') %>
+        <link rel="stylesheet" href="/css/home.css">
 </head>
 
 <body>
     <header>
         <%- include('../partials/header') %>
     </header>
+    <main>
+        <div class="carrusel">
+            <div class="carrusel-contenido">
+                <!-- Imagen grande -->
+                <div class="img-grande">
+                    <img src="/images/hero.jpg" alt="Banner principal">
+                </div>
+
+                <!-- Lado derecho: logo + descripción + botones -->
+                <div class="info">
+                    <div class="logo-home">
+                        <img src="/images/tobe-hero.png" alt="Logo de la serie">
+                    </div>
+
+                    <div class="descripcion">
+                        <p>
+                            En este mundo, los héroes surgen gracias a la confianza que las personas depositan en ellos,
+                            la cual puede medirse con datos visibles en la muñeca de cada individuo. Cuando alguien
+                            acumula
+                            suficientes puntos de confianza, obtiene superpoderes y puede convertirse en un
+                            superhéroe...
+                        </p>
+                    </div>
+
+                    <div class="botones">
+                        <button class="btn-ver">Ver más</button>
+                        <button class="btn-trailer">Trailer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

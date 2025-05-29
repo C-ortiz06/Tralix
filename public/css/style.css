@@ -3,9 +3,7 @@
 :root {
   --blanquito: #f1f0ec;
   --azul-neon: #00bbf9;
-  --violeta-claro: #782d44;
-  --marronsito: #b03a35;
-  --naranja: #e94726;
+  --negrito: #141414;
   --texto: Comfortaa;
   --titulos: Poppins;
 }
@@ -17,11 +15,10 @@
 }
 
 body {
-  height: 100vh;
-  margin: 0;
-  font-family: sans-serif;
-  background: linear-gradient(#0f0f0f 0%, #1e1e1e 100%);
-  color: white;
+  width: 100%;
+  height: 100%;
+  color: var(--blanquito); /* Texto claro */
+  background: var(--negrito)
 }
 
 header {

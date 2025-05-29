@@ -1,0 +1,96 @@
+.propiedades {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form {
+    background-color: var(--negrito);
+    outline: none;
+    border: none;
+    opacity: 0.75;
+    border-bottom: 2px solid var(--azulito);
+    font-size: 3vw;
+    appearance: none;
+}
+
+option,
+select {
+    color: var(--violeta-oscuro);
+}
+
+
+/* QUITANDO BOTONES DE DECREMENTO E INCREMENTO */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.labels {
+    font-size: 3vw;
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    transition: all 0.4s ease;
+}
+
+.input-form:focus~.labels {
+    top: -3vw;
+    font-size: 2.2vw;
+}
+
+.input-form::placeholder {
+    opacity: 0.5;
+    color: var(--negrito);
+}
+
+.input-form:focus::placeholder {
+    color: var(--azulito);
+}
+
+.input-form:valid~.labels {
+    top: -3vw;
+    font-size: 2.2vw;
+}
+
+.select {
+    top: -3vw;
+    font-size: 2.2vw;
+}
+
+.error-message {
+    color: red;
+    font-size: 1.5vw;
+}
+
+@media only screen and (min-width: 769px) {
+    .input-form {
+        font-size: 1.5vw;
+    }
+
+    .labels {
+        font-size: 1.5vw;
+    }
+
+    .input-form:focus~.labels {
+        font-size: 1.2vw;
+        top: -1.8vw;
+
+    }
+
+    .input-form:valid~.labels {
+        font-size: 1.2vw;
+        top: -1.8vw;
+    }
+
+    .select {
+        font-size: 1.2vw;
+        top: -1.8vw;
+    }
+
+    .error-message {
+        color: red;
+        font-size: 1.2vw;
+    }
+}

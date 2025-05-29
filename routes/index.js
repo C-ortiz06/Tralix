@@ -7,5 +7,8 @@ router.get('/', (req, res) => {
 router.get('/top', (req, res) => {
   res.render('main/top'); 
 });
+router.get('/register', (req, res) => {
+  res.render('main/register'); 
+});
 
 module.exports = router;
