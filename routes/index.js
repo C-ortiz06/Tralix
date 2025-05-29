@@ -2,10 +2,10 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  res.render('home'); 
+  res.render('main/home'); 
 });
 router.get('/top', (req, res) => {
-  res.render('top'); 
+  res.render('main/top'); 
 });
 
 module.exports = router;
