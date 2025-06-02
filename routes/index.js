@@ -10,5 +10,7 @@ router.get('/top', (req, res) => {
 router.get('/register', (req, res) => {
   res.render('main/register'); 
 });
-
+router.get('/detalles', (req, res) => {
+  res.render('main/detalles'); 
+});
 module.exports = router;
