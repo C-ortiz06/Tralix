@@ -54,6 +54,7 @@ a {
 .flecha {
   font-size: 6vw;
   padding: 1vw;
+    color: var(--azul-neon);
 }
 
 .flecha-link {
