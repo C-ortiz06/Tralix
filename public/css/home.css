@@ -62,7 +62,7 @@ a {
 }
 
 .logo-home img {
-  max-width: 37vw;
+  max-width: 100%;
   height: auto;
   object-fit: contain;
 }
